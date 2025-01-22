@@ -21,7 +21,7 @@ public class MazeCount {
             System.out.println(path);
             return;
         }
-
+//
         if (r > 1) {
             printPathDownAndRight(path + "D", r-1,c);
         }
